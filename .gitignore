@@ -13,7 +13,6 @@ conf/**/*credentials*
 10Acad/.
 data/**
 logs/**
-logs/**
 
 # except their sub-folders
 !data/**/
