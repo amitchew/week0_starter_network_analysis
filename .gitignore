@@ -6,10 +6,13 @@ conf/local/**
 !conf/local/.gitkeep
 .telemetry
 
+# ignore new env
+.venv/
 # ignore potentially sensitive credentials files
 conf/**/*credentials*
 
 # ignore everything in the following folders
+10Acad/.
 data/**
 logs/**
 
