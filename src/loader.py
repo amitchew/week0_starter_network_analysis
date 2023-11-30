@@ -32,6 +32,7 @@ class SlackDataProcessor:
         combined = []
         for json_file in glob.glob(f"{path_channel}*.json"):
             with open(json_file, 'r', encoding="utf8") as slack_data:
+                data=json.load(slack_data)
                 combined.append(slack_data)
 
         # loop through all json files and extract required informations
